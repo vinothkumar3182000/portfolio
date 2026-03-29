@@ -8,6 +8,7 @@ const featuredProjects = [
             'A cross-platform personal journal mobile application built with React Native and TypeScript, focused on clean UI, smooth animations, and daily writing streaks.',
         tags: ['React Native', 'TypeScript', 'Expo', 'Mobile'],
         github: 'https://github.com/vinothkumar3182000/my-journal-app',
+        inProgress: true,
     },
     // {
     //     title: 'Profilo — Portfolio Site',
@@ -32,8 +33,14 @@ const featuredProjects = [
     // },
 ];
 
-const ProjectCard = ({ title, description, tags, github }) => (
+const ProjectCard = ({ title, description, tags, github, inProgress }) => (
     <div className="project-card">
+        {inProgress && (
+            <div className="project-status-badge">
+                <span className="dot"></span>
+                In Progress
+            </div>
+        )}
         <div className="project-card-header">
             <Folder size={36} strokeWidth={1.2} className="project-folder" />
             <div className="project-links">
