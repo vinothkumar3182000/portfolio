@@ -1,16 +1,33 @@
-# React + Vite
+# Vinothkumar Y | Software Engineer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Software Engineer with 4+ years of experience specializing in building high-performance, accessible, and enterprise-grade UI components. Currently at **Syncfusion**, I focus on front-end development across various modern frameworks.
 
-Currently, two official plugins are available:
+## 🚀 About Me
+- 📍 Based in Chennai, India.
+- ⚡ Specializing in UI/UX, Web Standards (WCAG 2.0, CSP), and Web Components.
+- 🛠️ Currently building scalable components used across React, Blazor, Angular, Vue, and ASP.NET Core.
+- 👨‍💻 Passionate about open-source and creating efficient, delightful user experiences.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- **Languages**: TypeScript, JavaScript, C#, Python, HTML5, SCSS
+- **Frameworks**: React, Blazor, Angular, Vue, ASP.NET Core, React Native
+- **Standards**: WCAG 2.0, Accessibility, CSP, Web Components, Responsive Design
+- **Tools**: Git, Azure DevOps, Jasmine, VS Code, npm
 
-## React Compiler
+## 🏗️ Featured Projects
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### [Profilo — Portfolio Site](https://github.com/vinothkumar3182000/portfolio)
+Modern, animated personal portfolio built with **React** and **Vite**, featuring scroll-reveal animations, typewriter effects, and a premium dark UI.
 
-## Expanding the ESLint configuration
+### [JourneyApp](https://github.com/vinothkumar3182000/my-journal-app)
+A cross-platform personal journal mobile application built with **React Native** and **TypeScript**, focused on clean UI, smooth animations, and daily writing streaks.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📬 Get In Touch
+- **Email**: [vinothkumar3182000vpm@gmail.com](mailto:vinothkumar3182000vpm@gmail.com)
+- **LinkedIn**: [vinothkumar-y31](https://linkedin.com/in/vinothkumar-y31)
+- **GitHub**: [@vinothkumar3182000](https://github.com/vinothkumar3182000)
+
+---
+*Created with ❤️ by Vinothkumar Y*
