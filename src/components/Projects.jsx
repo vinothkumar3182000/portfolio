@@ -10,13 +10,13 @@ const featuredProjects = [
         github: 'https://github.com/vinothkumar3182000/my-journal-app',
         inProgress: true,
     },
-    // {
-    //     title: 'Profilo — Portfolio Site',
-    //     description:
-    //         'This very site! A modern, animated personal portfolio built with React and Vite, featuring scroll-reveal animations, typewriter effects, and a premium dark UI.',
-    //     tags: ['React', 'Vite', 'CSS3', 'Animations'],
-    //     github: 'https://github.com/vinothkumar3182000',
-    // },
+    {
+        title: 'Profilo — Portfolio Site',
+        description:
+            'This very site! A modern, animated personal portfolio built with React and Vite, featuring scroll-reveal animations, typewriter effects, and a premium dark UI.',
+        tags: ['React', 'Vite', 'CSS3', 'Animations'],
+        github: 'https://github.com/vinothkumar3182000/portfolio',
+    },
     // {
     //     title: 'Accessible Component Library',
     //     description:
