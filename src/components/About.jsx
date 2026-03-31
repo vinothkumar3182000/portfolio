@@ -19,8 +19,8 @@ const skillCategories = [
     },
     {
         icon: <Code size={22} />,
-        title: 'Tools & DevOps',
-        tags: ['Git', 'Azure DevOps', 'Jasmine', 'Visual Studio', 'VS Code', 'npm'],
+        title: 'Tools',
+        tags: ['Git', 'Jasmine', 'Visual Studio', 'VS Code', 'npm'],
     },
 ];
 

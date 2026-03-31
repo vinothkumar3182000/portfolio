@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Folder } from 'lucide-react';
+import { Github, Folder, ExternalLink } from 'lucide-react';
 
 const featuredProjects = [
     {
@@ -33,20 +33,30 @@ const featuredProjects = [
     // },
 ];
 
-const ProjectCard = ({ title, description, tags, github, inProgress }) => (
+const ProjectCard = ({ title, description, tags, github, external, inProgress }) => (
     <div className="project-card">
-        {inProgress && (
-            <div className="project-status-badge">
-                <span className="dot"></span>
-                In Progress
-            </div>
-        )}
         <div className="project-card-header">
             <Folder size={36} strokeWidth={1.2} className="project-folder" />
-            <div className="project-links">
-                <a href={github} target="_blank" rel="noreferrer" aria-label="GitHub repository">
-                    <Github size={20} />
-                </a>
+            
+            <div className="project-card-right-group">
+                {inProgress && (
+                    <div className="project-status-badge">
+                        <span className="dot"></span>
+                        In Progress
+                    </div>
+                )}
+                <div className="project-links">
+                    {github && (
+                        <a href={github} target="_blank" rel="noreferrer" aria-label="GitHub repository" title="View Source Code">
+                            <Github size={20} />
+                        </a>
+                    )}
+                    {external && (
+                        <a href={external} target="_blank" rel="noreferrer" aria-label="Live demo" title="View Live Demo">
+                            <ExternalLink size={20} />
+                        </a>
+                    )}
+                </div>
             </div>
         </div>
 
