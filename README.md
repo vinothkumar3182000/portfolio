@@ -1,33 +1,80 @@
-# Vinothkumar Y | Software Engineer
+# Modern React Personal Portfolio
 
-Software Engineer with 4+ years of experience specializing in building high-performance, accessible, and enterprise-grade UI components. Currently at **Syncfusion**, I focus on front-end development across various modern frameworks.
-
-## 🚀 About Me
-- 📍 Based in Chennai, India.
-- ⚡ Specializing in UI/UX, Web Standards (WCAG 2.0, CSP), and Web Components.
-- 🛠️ Currently building scalable components used across React, Blazor, Angular, Vue, and ASP.NET Core.
-- 👨‍💻 Passionate about open-source and creating efficient, delightful user experiences.
-
-## 🛠️ Tech Stack
-- **Languages**: TypeScript, JavaScript, C#, Python, HTML5, SCSS
-- **Frameworks**: React, Blazor, Angular, Vue, ASP.NET Core, React Native
-- **Standards**: WCAG 2.0, Accessibility, CSP, Web Components, Responsive Design
-- **Tools**: Git, Azure DevOps, Jasmine, VS Code, npm
-
-## 🏗️ Featured Projects
-
-### [Profilo — Portfolio Site](https://github.com/vinothkumar3182000/portfolio)
-Modern, animated personal portfolio built with **React** and **Vite**, featuring scroll-reveal animations, typewriter effects, and a premium dark UI.
-
-### [JourneyApp](https://github.com/vinothkumar3182000/my-journal-app)
-A cross-platform personal journal mobile application built with **React Native** and **TypeScript**, focused on clean UI, smooth animations, and daily writing streaks.
+A high-performance, animated personal portfolio built with React and Vite. This project showcases modern web design, custom CSS animations, and optimized front-end architecture.
 
 ---
 
-## 📬 Get In Touch
-- **Email**: [vinothkumar3182000vpm@gmail.com](mailto:vinothkumar3182000vpm@gmail.com)
-- **LinkedIn**: [vinothkumar-y31](https://linkedin.com/in/vinothkumar-y31)
-- **GitHub**: [@vinothkumar3182000](https://github.com/vinothkumar3182000)
+## 🔗 Live Demo
+**Check it out here: [https://vinothkumar-ca0c7--test-bwz1z96j.web.app/](https://vinothkumar-ca0c7--test-bwz1z96j.web.app/)**
 
 ---
-*Created with ❤️ by Vinothkumar Y*
+
+## 🚀 Getting Started
+
+### Prerequisites
+-   **Node.js**: (v18 or higher recommended)
+-   **npm**: (v9 or higher)
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/vinothkumar3182000/portfolio.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+### Building for Production
+```bash
+npm run build
+```
+The output will be in the `dist/` directory, ready to be deployed.
+
+---
+
+## 🛠️ Tech Stack & Architecture
+
+-   **Framework**: [React 19](https://react.dev/)
+-   **Build Tool**: [Vite 7](https://vitejs.dev/)
+-   **Styling**: Custom Vanilla CSS (Modern CSS variables, Flexbox/Grid)
+-   **Icons**: [Lucide React](https://lucide.dev/)
+-   **Animations**: Custom `IntersectionObserver` for scroll-reveal effects.
+-   **Deployment**: [Firebase Hosting](https://firebase.google.com/docs/hosting)
+
+### Project Structure
+```text
+├── src/
+│   ├── components/      # Reusable UI components (Navbar, Hero, About, etc.)
+│   ├── assets/          # Static assets (Images, Icons)
+│   ├── App.jsx          # Main application entry and layout
+│   ├── main.jsx         # Root rendering logic
+│   └── index.css        # Global styles and design system
+├── public/              # Static files (Favicon, manifest)
+├── firebase.json        # Firebase hosting configuration
+└── package.json         # Dependencies and scripts
+```
+
+---
+
+## 🌟 Key Features
+-   **Dynamic Mesh Background**: Custom-built CSS mesh gradient for a modern feel.
+-   **Scroll-Reveal Pipeline**: Lightweight JavaScript observer to trigger animations as you scroll.
+-   **Responsive Navigation**: Mobile-first navigation with clean desktop transitions.
+-   **Performance Focused**: Minimal dependencies with optimized Vite bundling.
+
+---
+
+## 📬 Contact / Feedback
+If you have any questions or feedback regarding this project, feel free to reach out.
+
+-   **GitHub**: [@vinothkumar3182000](https://github.com/vinothkumar3182000)
+-   **LinkedIn**: [vinothkumar-y31](https://linkedin.com/in/vinothkumar-y31)
+-   **Email**: [vinothkumar3182000vpm@gmail.com](mailto:vinothkumar3182000vpm@gmail.com)
+
+---
+*Developed by Vinothkumar Y*
