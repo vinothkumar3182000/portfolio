@@ -5,7 +5,7 @@ A high-performance, animated personal portfolio built with React and Vite. This 
 ---
 
 ## 🔗 Live Demo
-**Check it out here: [https://vinothkumar-ca0c7--test-bwz1z96j.web.app/](https://vinothkumar-ca0c7--test-bwz1z96j.web.app/)**
+**Check it out here: [https://vinothkumar-ca0c7.web.app/](https://vinothkumar-ca0c7.web.app/)**
 
 ---
 
